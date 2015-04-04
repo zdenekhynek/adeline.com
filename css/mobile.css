@@ -11,10 +11,7 @@ body, html {
 body {
 	background-color: #ffffff;
 	color: #231F20;
-}
-
-body {
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 .page-wrap, .page-inner-wrap {
@@ -24,30 +21,25 @@ body {
 .page-wrap {}
 	.page-inner-wrap {
 		transition: transform .25s ease-in-out;
-		transition: -webkit-transform .25s ease-in-out;
-		transition: -ms-transform .25s ease-in-out;
-		display: flex;
-		overflow: hidden;
-		height: 100vh;
+		-webkit-transition: -webkit-transform .25s ease-in-out;
+		-ms-transition: -ms-transform .25s ease-in-out;
 	}
 		
 
 /**
 *	LAYOUT
 **/
-.page-left-column, .page-right-column {}
+.page-left-column, .page-right-column {
+	overflow: auto;
+}
 .page-left-column {
+	position: fixed;
 	float: left;
 	width: 270px;
 	height: 100%;
 }
 .page-right-column {
-	margin-left: 270px;
-	overflow: auto;
-	height: auto;
-	padding: .5rem;
-	-webkit-overflow-scrolling: touch;
-	-ms-overflow-style: none;
+	height: 100%;
 }
 @media( max-width: 749px ) {
 	.page-right-column {
@@ -66,7 +58,8 @@ header {
 }
 
 .mob-header {
-
+	position: fixed;
+	z-index: 1;
 }
 	.mob-header h1 {
 		text-align: center;
@@ -78,7 +71,7 @@ header {
 #nav {
 	display: inline-block;
 	float: left;
-	overflow: hidden;
+	overflow: auto;
 	width: 100%;
 	height: 100%;
 	background-color: #ffffff;	
@@ -92,16 +85,22 @@ header {
 *	NAVIGATION ANIM
 **/
 @media( max-width: 749px ) {
-	#nav, .page-right-column {
-		transform: translate3d(-270px,0,0);
-		-webkit-transform: translate3d(-270px,0,0);
-		-ms-transform: translate3d(-270px,0,0);
+	.page-wrap.open {
 	}
-	.page-inner-wrap.open {
-		transform: translate3d(270px,0,0);
-		-webkit-transform: translate3d(270px,0,0);
-		-ms-transform: translate3d(270px,0,0);
+	.page-left-column {
+		display: none;
 	}
+		.page-wrap.open .page-inner-wrap {
+			transform: translate3d(270px,0,0);
+			-webkit-transform: translate3d(270px,0,0);
+			-ms-transform: translate3d(270px,0,0);
+		}
+			.page-wrap.open .page-left-column {
+				display: block;
+				transform: translate3d(-270px,0,0);
+				-webkit-transform: translate3d(-270px,0,0);
+				-ms-transform: translate3d(-270px,0,0);
+			}
 }
 
 /**
