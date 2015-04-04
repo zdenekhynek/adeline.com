@@ -31,15 +31,14 @@ body {
 **/
 .page-left-column, .page-right-column {
 	overflow: auto;
+	height: 100%;
 }
 .page-left-column {
 	position: fixed;
 	float: left;
 	width: 270px;
-	height: 100%;
 }
 .page-right-column {
-	height: 100%;
 }
 @media( max-width: 749px ) {
 	.page-right-column {
@@ -87,16 +86,13 @@ header {
 @media( max-width: 749px ) {
 	.page-wrap.open {
 	}
-	.page-left-column {
-		display: none;
-	}
+	.page-left-column {}
 		.page-wrap.open .page-inner-wrap {
 			transform: translate3d(270px,0,0);
 			-webkit-transform: translate3d(270px,0,0);
 			-ms-transform: translate3d(270px,0,0);
 		}
 			.page-wrap.open .page-left-column {
-				display: block;
 				transform: translate3d(-270px,0,0);
 				-webkit-transform: translate3d(-270px,0,0);
 				-ms-transform: translate3d(-270px,0,0);
