@@ -1,0 +1,71 @@
+/**
+*	HELPERS
+**/
+.no-bullets {
+	list-style-type: none;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**
+*	COLORS
+**/
+.light-yellow-bg {
+	background-color: #FCB215;
+}
+.dark-yellow-bg {
+	background-color: #F9BF2B;
+}
+.light-green-bg {
+	background-color: #66BB6A;
+}
+.dark-green-bg {
+	background-color: #31AC70;
+}
+.light-blue-bg {
+	background-color: #2C97D4;
+}
+.dark-blue-bg {
+	background-color: #1A87C8;
+}
+.light-purple-bg {
+	background-color: #9175B4;
+}
+.dark-purple-bg {
+	background-color: #775BA6;
+}
+.light-red-bg {
+	background-color: #F06291;
+}
+.dark-red-bg {
+	background-color: #EC407A;
+}
+
+/**
+*	LAYOUT
+**/
+.sm-100 {
+	width: 100%;
+}
+@media( max-width: 749px ) {
+	.desk-only {
+		display: none;
+	}
+}
+@media( min-width: 750px ) {
+	.md-50 {
+		width: 50%;
+	}
+	.mob-only {
+		display: none;
+	}
+}
+@media( min-width: 960px ) {
+	.lg-50 {
+		width: 50%;
+	}
+}
+
