@@ -1,4 +1,5 @@
 <?php
+	$active_page = "global-happy-party";
 	require_once( "header.php" );
 ?>
 	<!-- ebola -->

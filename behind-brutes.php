@@ -1,4 +1,5 @@
 <?php
+	$active_page = "behind-brutes";
 	require_once( "header.php" );
 ?>
 	<!-- ebola -->

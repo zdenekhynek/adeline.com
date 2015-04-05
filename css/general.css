@@ -112,7 +112,7 @@ ul {
 		color: #31AC70;
 	}
 .light-blue {}
-	.nav .nav-work-list a.light-blue:hover, ..nav .nav-work-list a.light-blue.active {
+	.nav .nav-work-list a.light-blue:hover, .nav .nav-work-list a.light-blue.active {
 		color: #2C97D4;
 	} 
 	.light-blue.homepage-tile {

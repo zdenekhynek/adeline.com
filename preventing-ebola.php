@@ -1,4 +1,5 @@
 <?php
+	$active_page = "preventing-ebola";
 	require_once( "header.php" );
 ?>
 	<!-- ebola -->

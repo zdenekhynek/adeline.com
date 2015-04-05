@@ -43,20 +43,20 @@
 							<li>
 								<h3>Work</h3>
 								<ul class="nav-work-list no-bullets">
-									<li><a href="preventing-ebola" title="Prevention of ebola" class="light-green active">Prevention of ebola</a></li>
-									<li><a href="global-happy-party" title="Global happy party" class="dark-green">Global happy party</a></li>
-									<li><a href="epic-stories" title="Epic stories" class="dark-yellow">Epic stories</a></li>
-									<li><a href="behind-brutes" title="Behind the brutes" class="light-yellow">Behind the brutes</a></li>
-									<li><a href="#" title="" class="light-blue">Sony xperia</a></li>
-									<li><a href="#" title="" class="dark-blue">Ouch</a></li>
-									<li><a href="#" title="" class="light-purple">Combien de dodos?</a></li>
-									<li><a href="#" title="" class="dark-purple">Tweeting rooms</a></li>
-									<li><a href="#" title="" class="light-red">1000km</a></li>
-									<li><a href="#" title="" class="dark-red">Victorinox x Raeburn</a></li>
+									<li><a href="preventing-ebola" title="Prevention of ebola" class="light-green <?php if( $active_page == 'preventing-ebola' ) echo 'active'; ?>">Prevention of ebola</a></li>
+									<li><a href="global-happy-party" title="Global happy party" class="dark-green <?php if( $active_page == 'global-happy-party' ) echo 'active'; ?>">Global happy party</a></li>
+									<li><a href="epic-stories" title="Epic stories" class="dark-yellow <?php if( $active_page == 'epic-stories' ) echo 'active'; ?>">Epic stories</a></li>
+									<li><a href="behind-brutes" title="Behind the brutes" class="light-yellow <?php if( $active_page == 'behind-brutes' ) echo 'active'; ?>">Behind the brutes</a></li>
+									<li><a href="#" title="" class="light-blue <?php if( $active_page == 'sony-experia' ) echo 'active'; ?>">Sony xperia</a></li>
+									<li><a href="#" title="" class="dark-blue <?php if( $active_page == 'ouch' ) echo 'active'; ?>">Ouch</a></li>
+									<li><a href="#" title="" class="light-purple <?php if( $active_page == 'combien-de-dodos' ) echo 'active'; ?>">Combien de dodos?</a></li>
+									<li><a href="#" title="" class="dark-purple <?php if( $active_page == 'tweeting-rooms' ) echo 'active'; ?>">Tweeting rooms</a></li>
+									<li><a href="#" title="" class="light-red <?php if( $active_page == 'mille-bornes' ) echo 'active'; ?>">1000km</a></li>
+									<li><a href="#" title="" class="dark-red <?php if( $active_page == 'victorinox-reaburn' ) echo 'active'; ?>">Victorinox x Raeburn</a></li>
 								</ul>
 							</li>
 							<li>
-								<h3><a href="about.php">About<br />+Contact</a></h3>
+								<h3><a href="about.php" class="<?php if( $active_page == 'about' ) echo 'active'; ?>">About<br />+Contact</a></h3>
 							</li>
 						</ul>
 						<ul class="socials-list clearfix no-bullets">

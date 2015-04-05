@@ -1,4 +1,5 @@
 <?php
+	$active_page = "epic-stories";
 	require_once( "header.php" );
 ?>
 	<!-- ebola -->

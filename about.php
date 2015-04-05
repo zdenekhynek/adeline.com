@@ -1,4 +1,5 @@
 <?php
+	$active_page = "about";
 	require_once( "header.php" );
 ?>
 	<!-- about -->
