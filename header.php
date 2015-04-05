@@ -18,6 +18,7 @@
 		<link rel="stylesheet" href="css/normalize.min.css">
 		
 		<link rel="stylesheet" href="css/general.css">
+		<link rel="stylesheet" href="css/base.css">
 		<link rel="stylesheet" href="css/mobile.css">
 		<link rel="stylesheet" href="css/desktop.css">
 

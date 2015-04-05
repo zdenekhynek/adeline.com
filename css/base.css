@@ -1,0 +1,257 @@
+/**
+*	LAYOUT
+**/
+.page-wrap, .page-inner-wrap {
+	width: 100%;
+	height: 100%;
+}
+.page-wrap {}
+	.page-inner-wrap {
+		transition: transform .25s ease-in-out;
+		-webkit-transition: -webkit-transform .25s ease-in-out;
+		-ms-transition: -ms-transform .25s ease-in-out;
+	}
+
+.page-left-column, .page-right-column {
+	height: 100%;
+}
+.page-left-column {
+	float: left;
+	width: 250px;
+	margin-right: -250px;
+}
+
+
+/**
+*	HEADER
+**/
+header {
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+	background-color: #ffffff;	
+}
+
+/**
+*	MOBILE HEADER
+**/
+.mob-header {
+	padding: 8px;
+	text-align: center;
+}	
+	.mob-header h1 {
+		margin: 0;
+	}
+		.mob-header h1 a {
+			display: block;
+			width: 42px;
+			height: 49px;
+			margin: 0 auto;
+			background: url( "../img/homepage-mob-logo.png" );
+			background-size: contain;
+		}
+
+	/* hamburger */
+	.nav-btn {
+		position: absolute;
+		top: 8px;
+		left: 8px;
+		display: block;
+		width: 50px;
+		height: 50px;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+	}
+		.nav-btn span, .nav-btn span::before, .nav-btn span::after {
+			
+			background: #37474F;
+			border: 1px solid #37474F;
+			border-radius: 3px;
+		}
+		.nav-btn span {
+			display: block;
+			position: absolute;
+			top: 25px;
+			left: 10px;
+			right: 10px;
+			height: 4px;
+		}
+			.nav-btn.active span {
+				background: none;
+				border: 0;
+			}
+			.nav-btn span::before, .nav-btn span::after {
+				position: absolute;
+				display: block;
+				left: -1px;
+				width: 100%;
+				height: 2px;
+				content: "";
+				transition: all, .25s;
+				-webkit-transition: all, .25s;
+				-ms-transition: all, .25s;
+			}
+			.nav-btn span::before {
+				top: -9px;
+			}
+				.nav-btn.active span::before {
+					top: 0px;
+					transform: rotate(45deg);
+					-webkit-transform: rotate(45deg);
+					-ms-transform: rotate(45deg);
+				}
+			.nav-btn span::after {
+				bottom: -9px;
+			}
+				.nav-btn.active span::after {
+					top: 0px;
+					transform: rotate(-45deg);
+					-webkit-transform: rotate(-45deg);
+					-ms-transform: rotate(-45deg);
+				}
+
+
+/**
+*	NAVIGATION
+**/
+.nav {
+	display: inline-block;
+	float: left;
+	overflow: auto;
+	width: 100%;
+	padding: 0px 20px 20px;
+	background-color: #ffffff;	
+	text-transform: uppercase;
+}	
+	.nav h3, .nav a {
+		color: #37474F;
+	}
+	.nav h3 {
+		margin-left: 10px;
+		font-size: 24px;
+	}
+	.nav a {
+		text-decoration: none;
+	}
+		.nav h3 a:hover, .nav h3 a.active {
+			color: #FCB215;
+		}
+		/*.nav a:hover, .nav .nav-work-list a:hover {
+			color: #FCB215;
+		}*/
+	.nav ul {}	
+		.nav .nav-work-list {
+			font-size: 14px;
+		}
+			.nav .nav-work-list li {
+				margin-bottom: 10px;
+			}
+			.nav .nav-work-list a {
+				color: #E0E0DF;			
+			}
+	
+	.socials-list {
+		font-size: 45px;
+	}
+		.socials-list li {
+			float: left;
+			margin-right: 12px;
+		}
+		.socials-list a {
+			color: #eeeeee;
+		}
+			.socials-list .twitter a:hover {
+				color: #00ACED;
+			}
+			.socials-list .tumblr a:hover {
+				color: #2C4762;
+			}
+			.socials-list .linkedin a:hover {
+				color: #007FB1;
+			}
+
+/**
+*	HOMEPAGE
+**/
+.homepage-content-wrap {}
+	.homepage-tile {
+		position: relative;
+		float: left;
+		height: 350px;
+		text-align: center;
+	}
+		.homepage-tile img {
+			max-width: 100%;
+			height: auto;
+			margin: 0 auto;
+		}
+
+/**
+*	PROJECT
+**/
+.project-content-wrap, .about-content-wrap {
+	overflow: auto;
+	padding: 20px;
+	background-color: #F7F8F8;	
+}
+	.project-content-wrap h1 {
+		padding-bottom: 30px;
+		color: #37474F;
+		font-size: 40px;
+		text-transform: uppercase;
+	}
+	.project-content-wrap img {
+		max-width:100%;
+		height: auto;
+	}
+
+	/* project controls */
+	.project-controls {}
+		.project-controls li {
+			float: left;
+		}
+		.project-controls a:hover {
+			color: #FCB215;
+		}
+		
+
+/**
+* ABOUT
+**/
+.about-content-wrap {
+	position: relative;
+}
+	.about-content-wrap h1 {
+		padding-bottom: 30px;
+		font-size: 40px;
+		text-transform: uppercase;
+		border-bottom: 3px solid #FCB215;
+	}
+
+.right-about-column {
+	padding-top: 30px;
+}	
+	.right-about-section h2 {
+		max-width: 150px;
+		padding-bottom: 30px;
+		text-transform: uppercase;
+		border-bottom: 3px solid #E0E0DF;
+	}
+	.right-about-section a {
+		color: #757575;
+		text-decoration: none;
+	}
+		.right-about-section a:hover {
+			color: #FCB215;
+		}
+.footnote {
+	position: absolute;
+	bottom: 0;
+	font-size: 10px;
+}
+/* if javascsript-enabled, hide title before js settings kicks in*/
+.js .about-content-wrap h1 {
+	visibility: hidden;
+}
+		
