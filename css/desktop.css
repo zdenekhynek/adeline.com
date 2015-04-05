@@ -1,40 +1,108 @@
+/**
+*	DEFAULT FOR LARGE SCREENS
+**/
+
 @media( min-width: 750px ) {
 
+	.page-left-column {
+		position: fixed;
+	}
+	.desk-header {
+		text-align: center;
+	}
+		.desk-header h2 a {
+			display: inline-block;
+			width: 110px;
+			height: 110px;
+			margin: 15px auto 5px;
+			background: url( "../img/homepage-logo.png" );
+			background-size: contain;
+		}
+
+	.page-right-column {
+		margin-left: 270px;
+	}
+	  
 	.homepage-tile {
 		height: 400px;
+	}
+
+	/**
+	*	PROJECTS
+	**/
+	.project-content-wrap, .about-content-wrap {
+		min-height: 100vh;
+		padding: 20px 40px;
+	}
+		.project-content-wrap h1, .about-content-wrap h1 {
+			width: 400px;
+			padding-bottom: 50px;
+		}
+		.project-content-wrap p {
+			width: 70%;
+		}
+		.project-content-wrap .image-gallery {}
+			.project-content-wrap .image-gallery img {
+				float: left;
+				max-width: 300px;
+				height: auto;
+			}
+
+		/* project controlles */
+		.project-controls {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			font-size: 18px;
+		}
+			.project-controls li:first-child {
+				margin-right: 20px;
+			}
+			.project-controls li:last-child {
+				margin-left: 20px;
+			}
+
+	/**
+	*	ABOUT
+	**/
+	.left-about-column {
+		padding-right: 20%;
+	}
+	.right-about-column {
+		padding-top: 67px;
+	}
+		.right-about-section {
+			margin-bottom: 50px;
+		}
+
+}
+
+/**
+* ADDITIONAL SPECIAL CASES FOR LARGER SCREENS
+**/
+
+@media( min-width: 960px ) {
+
+	.homepage-tile img {
+		position: absolute;
+		left: 50%;
+		bottom: -100px;
+		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
 	}
 
 }
 
 @media( min-width: 1024px ) {
-
-	.homepage-tile {
-		height: 450px;
-	}
-
+	.homepage-tile { height: 450px; }
 }
-
 @media( min-width: 1120px ) {
-
-	.homepage-tile {
-		height: 500px;
-	}
-
+	.homepage-tile { height: 500px; }
 }
-
 @media( min-width: 1300px ) {
-
-	.homepage-tile {
-		height: 550px;
-	}
-
+	.homepage-tile { height: 550px; }
 }
-
-
 @media( min-width: 1400px ) {
-
-	.homepage-tile {
-		height: 600px;
-	}
-
+	.homepage-tile { height: 600px; }
 }
