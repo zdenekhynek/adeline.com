@@ -145,6 +145,9 @@ header {
 	.nav a {
 		text-decoration: none;
 	}
+		.nav h3 a:hover {
+			color: #FCB215;
+		}
 		/*.nav a:hover, .nav .nav-work-list a:hover {
 			color: #FCB215;
 		}*/
