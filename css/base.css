@@ -177,6 +177,7 @@ header {
 .homepage-content-wrap {}
 	.homepage-tile {
 		position: relative;
+		overflow: hidden;
 		float: left;
 		height: 350px;
 		text-align: center;
