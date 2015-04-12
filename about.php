@@ -1,6 +1,7 @@
 <?php
+	require_once( "scripts.php" );
 	$active_page = "about";
-	require_once( "header.php" );
+	get_header();
 ?>
 	<!-- about -->
 	<section class="about-content-wrap content-wrap light-green clearfix">
@@ -35,5 +36,5 @@
 	</section>
 	<!-- end about -->
 <?php
-	require_once( "footer.php" );
+	get_footer();
 ?>

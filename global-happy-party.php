@@ -1,6 +1,7 @@
 <?php
+	require_once( "scripts.php" );
 	$active_page = "global-happy-party";
-	require_once( "header.php" );
+	get_header();
 ?>
 	<!-- ebola -->
 	<section class="project-content-wrap content-wrap dark-green clearfix">
@@ -26,5 +27,5 @@
 	</section>
 	<!-- end ebola -->
 <?php
-	require_once( "footer.php" );
+	get_footer();
 ?>

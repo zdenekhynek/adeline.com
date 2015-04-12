@@ -1,6 +1,7 @@
 <?php
+	require_once( "scripts.php" );
 	$active_page = "preventing-ebola";
-	require_once( "header.php" );
+	get_header();
 ?>
 	<!-- ebola -->
 	<section class="project-content-wrap content-wrap light-green clearfix">
@@ -26,5 +27,5 @@
 	</section>
 	<!-- end ebola -->
 <?php
-	require_once( "footer.php" );
+	get_footer();
 ?>

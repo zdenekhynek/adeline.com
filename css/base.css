@@ -255,4 +255,63 @@ header {
 .js .about-content-wrap h1 {
 	visibility: hidden;
 }
+
+
+.loader-cover {
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 270px;
+	
+	z-index: 1;
+}
+	.loader-cover-inner {
+		width: 100%;
+		height: 100%;
+		background-color: orange;
+		transform-origin: top;
+		/*transform-origin: left;*/
+		transform: scaleY(0);
+		transition: transform .4s ease-in-out;
+	}
+		.loader-cover.active .loader-cover-inner {
+			transform: scaleY(1);
+		}
+		.loader-cover.active-down .loader-cover-inner {
+			transform: scaleY(0);
+			/*transform-origin: right;*/
+			transform-origin: bottom;
+		}
+
+	/* left-right */
+	.left-right .loader-cover-inner {
+		transform: scaleX(0) scaleY(1);
+		transform-origin: left;
+	}
+		.left-right .loader-cover.active .loader-cover-inner {
+			transform: scaleX(1) scaleY(1);
+		}
+		.left-right .loader-cover.active-down .loader-cover-inner {
+			transform: scaleX(0) scaleY(1);
+			transform-origin: right;
+		}
+	.left-left .loader-cover-inner {
+		transform: scaleX(0) scaleY(1);
+		transform-origin: left;
+	}
+		.left-left .loader-cover.active .loader-cover-inner {
+			transform: scaleX(1) scaleY(1);
+		}
+		.left-left .loader-cover.active-down .loader-cover-inner {
+			transform: scaleX(0) scaleY(1);
+			transform-origin: left;
+		}
+		
+		.top-top .loader-cover.active-down .loader-cover-inner {
+			transform-origin: top;
+		}
+
+
 		

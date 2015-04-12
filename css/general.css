@@ -72,6 +72,9 @@ ul {
 	.light-yellow .project-controls a {
 		color: #FCB215;
 	}
+	.light-yellow .loader-cover-inner {
+		background-color: #FCB215;
+	}
 .dark-yellow {} 
 	.nav .nav-work-list a.dark-yellow:hover, .nav .nav-work-list a.dark-yellow.active {
 		color: #F9BF2B;
@@ -84,6 +87,9 @@ ul {
 	}
 	.dark-yellow .project-controls a {
 		color: #F9BF2B;
+	}
+	.dark-yellow .loader-cover-inner {
+		background-color: #F9BF2B;
 	}
 .light-green {}
 	.nav .nav-work-list a.light-green:hover, .nav .nav-work-list a.light-green.active {
@@ -98,6 +104,9 @@ ul {
 	.light-green .project-controls a {
 		color: #66BB6A;
 	}
+	.light-green .loader-cover-inner {
+		background-color: #66BB6A;
+	}
 .dark-green {} 
 	.nav .nav-work-list a.dark-green:hover, .nav .nav-work-list a.dark-green.active {
 		color: #31AC70;
@@ -110,6 +119,9 @@ ul {
 	}
 	.dark-green .project-controls a {
 		color: #31AC70;
+	}
+	.dark-green .loader-cover-inner {
+		background-color: #31AC70;
 	}
 .light-blue {}
 	.nav .nav-work-list a.light-blue:hover, .nav .nav-work-list a.light-blue.active {
@@ -124,6 +136,9 @@ ul {
 	.light-blue .project-controls a {
 		color: #2C97D4;
 	}
+	.light-blue .loader-cover-inner {
+		background-color: #2C97D4;
+	}
 .dark-blue {} 
 	.nav .nav-work-list a.dark-blue:hover, .nav .nav-work-list a.dark-blue.active {
 		color: #1A87C8;
@@ -136,7 +151,10 @@ ul {
 	}
 	.dark-blue .project-controls a {
 		color: #1A87C8;
-	}		
+	}	
+	.dark-blue .loader-cover-inner {
+		background-color: #1A87C8;
+	}	
 .light-purple {} 
 	.nav .nav-work-list a.light-purple:hover, .nav .nav-work-list a.light-purple.active {
 		color: #9175B4;
@@ -149,6 +167,9 @@ ul {
 	}
 	.light-purple .project-controls a {
 		color: #9175B4;
+	}
+	.light-purple .loader-cover-inner {
+		background-color: #9175B4;
 	}	
 .dark-purple {} 
 	.nav .nav-work-list a.dark-purple:hover, .nav .nav-work-list a.dark-purple.active {
@@ -163,6 +184,9 @@ ul {
 	.dark-purple .project-controls a {
 		color: #775BA6;
 	}
+	.dark-purple .loader-cover-inner {
+		background-color: #775BA6;
+	}
 .light-red {} 
 	.nav .nav-work-list a.light-red:hover, .nav .nav-work-list a.light-red.active {
 		color: #F06291;
@@ -176,6 +200,9 @@ ul {
 	.light-red .project-controls a {
 		color: #F06291;
 	}
+	.light-red .loader-cover-inner {
+		background-color: #F06291;
+	}
 .dark-red {}
 	.nav .nav-work-list a.dark-red:hover, .nav .nav-work-list a.dark-red.active {
 		color: #EC407A;
@@ -188,6 +215,9 @@ ul {
 	}
 	.dark-red .project-controls a {
 		color: #EC407A;
+	}
+	.dark-red .loader-cover-inner {
+		background-color: #EC407A;
 	}
 
 /**
