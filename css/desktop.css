@@ -12,10 +12,10 @@
 	}
 		.desk-header h2 a {
 			display: inline-block;
-			width: 110px;
-			height: 110px;
+			width: 100%;
+			height: 180px;
 			margin: 15px auto 5px;
-			background: url( "../img/homepage-logo.png" );
+			background: url( "../img/scratch.gif" ) no-repeat center center;
 			background-size: contain;
 		}
 

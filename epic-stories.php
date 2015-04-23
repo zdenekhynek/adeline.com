@@ -3,9 +3,11 @@
 	$active_page = "epic-stories";
 	get_header();
 ?>
-	<!-- ebola -->
+	<!-- epic stories -->
 	<section class="project-content-wrap content-wrap dark-yellow clearfix">
 		<h1>Epic stories
+		</h1>
+			<a href="#" class="project-link" title="Preventing ebola"><span class="visually-hidden">Global Happy Party</span></a>
 			<ul class="project-controls no-bullets clearfix">
 				<li>
 					<a href="global-happy-party" data-transition-direction="transition-right-left" class="project-prev-arrow" title="Global happy party"><i class="io io-left-arrow"></i><span class="visually-hidden">Previous</span></a>
@@ -20,12 +22,11 @@
 		</h1>
 		<p>For the International Day of Happiness 2015, Pharrell Williams and the United Nations Foundation invited everyone to join a global HAPPY PARTY, spread happiness, and demand climate action.</p>
 		<div class="image-gallery clearfix">
-			<img src="img/ebola-img-1.png" alt="Ebola" />
-			<img src="img/ebola-img-2.png" alt="Ebola" />
 		</div>
+		<iframe src="https://player.vimeo.com/video/76039344" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/76039344">Creative Business Cup - Belgium, EPIC</a> from <a href="https://vimeo.com/creativebusinesscup">creativebusinesscup</a> on <a href="https://vimeo.com">Vimeo</a>.</p>	
 		<p>Art direction: Steve Vranakis<br />Design: Hana Tanimura + Adeline O’Moreau<p>
 	</section>
-	<!-- end ebola -->
+	<!-- end epic stories -->
 <?php
 	get_footer();
 ?>

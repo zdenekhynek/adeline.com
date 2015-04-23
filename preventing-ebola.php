@@ -5,7 +5,7 @@
 ?>
 	<!-- ebola -->
 	<section class="project-content-wrap content-wrap light-green clearfix">
-		<h1>Preventing Ebola
+		<h1>Preventing Ebola</h1>
 			<ul class="project-controls no-bullets clearfix">
 				<li>
 					<a href="behind-brutes" data-transition-direction="transition-right-left" class="project-prev-arrow" title="Behind brutes"><i class="io io-left-arrow"></i><span class="visually-hidden">Previous</span></a>

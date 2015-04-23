@@ -199,13 +199,17 @@ header {
 	.project-content-wrap h1 {
 		padding-bottom: 30px;
 		color: #37474F;
-		font-size: 40px;
+		font-size: 50px;
 		text-transform: uppercase;
 	}
 	.project-content-wrap img {
 		max-width:100%;
 		height: auto;
 	}
+    
+    .project-content-wrap .video{
+    			max-width:100%; !important
+    			max-height: 56.25%; !important}
 
 	/* project controls */
 	.project-controls {}
@@ -225,7 +229,7 @@ header {
 }
 	.about-content-wrap h1 {
 		padding-bottom: 30px;
-		font-size: 40px;
+		font-size: 50px;
 		text-transform: uppercase;
 		border-bottom: 3px solid #FCB215;
 	}
@@ -240,7 +244,7 @@ header {
 		border-bottom: 3px solid #E0E0DF;
 	}
 	.right-about-section a {
-		color: #757575;
+		color: #536d79;
 		text-decoration: none;
 	}
 		.right-about-section a:hover {
@@ -268,11 +272,11 @@ header {
 	z-index: 1;
 }
 	.loader-cover-inner {
-		position: relative;
 		width: 100%;
 		height: 100%;
 		background-color: orange;
 		transform-origin: top;
+		/*transform-origin: left;*/
 		transform: scaleY(0);
 		transition: transform .4s ease-in-out;
 	}
@@ -311,7 +315,8 @@ header {
 		.transition-top-top .loader-cover.active-down .loader-cover-inner {
 			transform-origin: top;
 		}
-	/* right-left */
+
+		/* right-left */
 	.transition-right-left .loader-cover-inner {
 		transform: scaleX(0) scaleY(1);
 		transform-origin: right;
@@ -349,26 +354,7 @@ header {
 		.loader-cover-graphic:after{
 			animation: preloader_3_after 1.25s infinite linear;
 		}
-		/*@keyframes preloader_3_before {
-			0% {transform: translateX(0px) scale(1.4); animation-timing-function: cubic-bezier(.34,.67,.63,.36);}
-			25% {transform: translateX(20px) scale(1); opacity: 1;}
-			50% {transform: translateX(0px) scale(.6); opacity:.5; animation-timing-function: cubic-bezier(.34,.67,.63,.36);}
-			75% {transform: translateX(-20px) scale(1); opacity: 1;}
-			100% {transform: translateX(0px) scale(1.4);}
-		}
-		@keyframes preloader_3_after {
-			0% {transform: translateX(0px) scale(.6); opacity:.5; animation-timing-function: cubic-bezier(.34,.67,.63,.36);}
-			25% {transform: translateX(-20px) scale(1); opacity: 1;}
-			50% {transform: translateX(0px) scale(1.4); animation-timing-function: cubic-bezier(.34,.67,.63,.36);}
-			75% {transform: translateX(20px) scale(1); opacity: 1;}
-			100% {transform: translateX(0px) scale(.6); opacity:.5;}
-		}*/
-
-		/*
-			http://cubic-bezier.com/#.11,.21,.9,1
-			http://cubic-bezier.com/#.6,0,.89,.79
-		*/
- 		@keyframes preloader_3_before {
+		@keyframes preloader_3_before {
 			0% {transform: translateX(0px) scale(1.5); opacity: 1; animation-timing-function: cubic-bezier(.11,.21,.8,1)}
 			25% {transform: translateX(15px) scale(1); opacity: .9; animation-timing-function: cubic-bezier(0,0,.89,.79)}
 			50% {transform: translateX(0px) scale(.5); opacity: .1; animation-timing-function: cubic-bezier(.11,.21,.8,1)}
@@ -383,4 +369,9 @@ header {
 			100% {transform: translateX(0px) scale(.5); opacity: .1;}
 		}
 	
+
+
+
+
+
 		

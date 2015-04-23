@@ -109,8 +109,7 @@
 						//prepare new page
 						ajaxifyLinks();
 						checkAboutGreeting();
-						return;
-
+						
 						$loaderCover.addClass( "active-down" );
 						
 						//get rid of preloader

@@ -1,10 +1,8 @@
 <?php 
-	
 	global $active_page;
 	if( !isset( $active_page ) ) {
 		$active_page = "";
 	}
-
 ?>
 
 <!doctype html>
@@ -21,7 +19,7 @@
 		<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-		<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" href="css/normalize.min.css">
@@ -53,16 +51,16 @@
 							<li>
 								<h3>Work</h3>
 								<ul class="nav-work-list no-bullets">
-									<li><a data-transition-class="light-green" data-transition-direction="transition-left-right" href="preventing-ebola" title="Prevention of ebola" class="light-green <?php if( $active_page == 'preventing-ebola' ) echo 'active'; ?>">Prevention of ebola</a></li>
-									<li><a data-transition-class="dark-green" data-transition-direction="transition-left-right" href="global-happy-party" title="Global happy party" class="dark-green <?php if( $active_page == 'global-happy-party' ) echo 'active'; ?>">Global happy party</a></li>
-									<li><a data-transition-class="dark-yellow" data-transition-direction="transition-left-right" href="epic-stories" title="Epic stories" class="dark-yellow <?php if( $active_page == 'epic-stories' ) echo 'active'; ?>">Epic stories</a></li>
-									<li><a data-transition-class="light-yellow" data-transition-direction="transition-left-right" href="behind-brutes" title="Behind the brutes" class="light-yellow <?php if( $active_page == 'behind-brutes' ) echo 'active'; ?>">Behind the brutes</a></li>
-									<li><a data-transition-class="light-blue" data-transition-direction="transition-left-right" href="#" title="" class="light-blue <?php if( $active_page == 'sony-experia' ) echo 'active'; ?>">Sony xperia</a></li>
-									<li><a data-transition-class="dark-blue" data-transition-direction="transition-left-right" href="preventing-ebola" href="#" title="" class="dark-blue <?php if( $active_page == 'ouch' ) echo 'active'; ?>">Ouch</a></li>
-									<li><a data-transition-class="light-purple" data-transition-direction="transition-left-right" href="#" title="" class="light-purple <?php if( $active_page == 'combien-de-dodos' ) echo 'active'; ?>">Combien de dodos?</a></li>
-									<li><a data-transition-class="dark-purple" data-transition-direction="transition-left-right" href="#" title="" class="dark-purple <?php if( $active_page == 'tweeting-rooms' ) echo 'active'; ?>">Tweeting rooms</a></li>
-									<li><a data-transition-class="light-red" data-transition-direction="transition-left-right" href="#" title="" class="light-red <?php if( $active_page == 'mille-bornes' ) echo 'active'; ?>">1000km</a></li>
-									<li><a data-transition-class="dark-green" data-transition-direction="transition-left-right" href="#" title="" class="dark-red <?php if( $active_page == 'victorinox-reaburn' ) echo 'active'; ?>">Victorinox x Raeburn</a></li>
+									<li><a data-transition-direction="transition-left-right" data-transition-class="light-green" href="preventing-ebola" title="Prevention of ebola" class="light-green <?php if( $active_page == 'preventing-ebola' ) echo 'active'; ?>">Prevention of ebola</a></li>
+									<li><a data-transition-direction="transition-left-right" data-transition-class="dark-green" href="global-happy-party" title="Global happy party" class="dark-green <?php if( $active_page == 'global-happy-party' ) echo 'active'; ?>">Global happy party</a></li>
+									<li><a data-transition-direction="transition-left-right" data-transition-class="dark-yellow" href="epic-stories" title="Epic stories" class="dark-yellow <?php if( $active_page == 'epic-stories' ) echo 'active'; ?>">Epic stories</a></li>
+									<li><a data-transition-direction="transition-left-right" data-transition-class="light-yellow" href="behind-brutes" title="Behind the brutes" class="light-yellow <?php if( $active_page == 'behind-brutes' ) echo 'active'; ?>">Behind the brutes</a></li>
+									<li><a data-transition-direction="transition-left-right" data-transition-class="light-blue" href="sony-xperia" title="" class="light-blue <?php if( $active_page == 'sony-experia' ) echo 'active'; ?>">Sony xperia</a></li>
+									<li><a data-transition-direction="transition-left-right" data-transition-class="dark-blue" href="ouch" title="" class="dark-blue <?php if( $active_page == 'ouch' ) echo 'active'; ?>">Ouch</a></li>
+									<li><a data-transition-direction="transition-left-right" data-transition-class="light-purple" href="combien-de-dodos" title="" class="light-purple <?php if( $active_page == 'combien-de-dodos' ) echo 'active'; ?>">Combien de dodos?</a></li>
+									<li><a data-transition-direction="transition-left-right" data-transition-class="dark-purple" href="tweeting-rooms" title="" class="dark-purple <?php if( $active_page == 'tweeting-rooms' ) echo 'active'; ?>">Tweeting rooms</a></li>
+									<li><a data-transition-direction="transition-left-right" data-transition-class="light-red" href="1000km" title="" class="light-red <?php if( $active_page == 'mille-bornes' ) echo 'active'; ?>">1000km</a></li>
+									<li><a data-transition-direction="transition-left-right" data-transition-class="dark-green" href="victorinox" title="" class="dark-red <?php if( $active_page == 'victorinox-reaburn' ) echo 'active'; ?>">Victorinox x Raeburn</a></li>
 								</ul>
 							</li>
 							<li>

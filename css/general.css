@@ -8,10 +8,11 @@ body, html {
 	width: 100%;
 	height: 100%;
 	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 100;
 }
 body {
 	background-color: #ffffff;
-	color: #757575;
+	color: #b5b5b5;
 }
 h1, h2, h3, h4, h5, h6 {
 	color: #37474F;
@@ -27,6 +28,11 @@ a {
 }
 p {
 	line-height: 1.4;
+}
+p a {
+	color: #536d79;
+	text-decoration: none;
+
 }
 strong {
 	color: #37474F;
@@ -55,6 +61,30 @@ ul {
 	border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; 
 }
 
+/*CSS LINK BTN*/
+.project-link {display: block;
+width: 40px;
+height: 40px;
+border-radius: 46px;
+background-image: url("../img/link.png");
+background-position: center center;
+background-repeat: no-repeat no-repeat;
+margin-top:10px; 
+display: block;}
+
+.link {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 40px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	transition: all .25s;
+	-webkit-transition: all .25s;
+	-ms-transition: all .25s;
+
+	/*padding-left: 40px;*/
+	}
+/*.link:hover {border-bottom: solid 2px}*/
 
 /**
 *	COLORS
@@ -75,6 +105,11 @@ ul {
 	.light-yellow .loader-cover-inner {
 		background-color: #FCB215;
 	}
+
+
+	
+
+
 .dark-yellow {} 
 	.nav .nav-work-list a.dark-yellow:hover, .nav .nav-work-list a.dark-yellow.active {
 		color: #F9BF2B;
@@ -91,6 +126,12 @@ ul {
 	.dark-yellow .loader-cover-inner {
 		background-color: #F9BF2B;
 	}
+	.dark-yellow .project-link{
+		background-color: #F9BF2B;
+		box-shadow: #CF9E23 0px 3px 0px;
+	}
+
+
 .light-green {}
 	.nav .nav-work-list a.light-green:hover, .nav .nav-work-list a.light-green.active {
 		color: #66BB6A;
@@ -107,6 +148,12 @@ ul {
 	.light-green .loader-cover-inner {
 		background-color: #66BB6A;
 	}
+
+	.light-green .project-link{
+		background-color: #66BB6A;
+		box-shadow: #29905E 0px 3px 0px;
+	}
+
 .dark-green {} 
 	.nav .nav-work-list a.dark-green:hover, .nav .nav-work-list a.dark-green.active {
 		color: #31AC70;
@@ -123,6 +170,15 @@ ul {
 	.dark-green .loader-cover-inner {
 		background-color: #31AC70;
 	}
+
+	.dark-green .project-link{
+		background-color: #31AC70;
+		box-shadow: #29905E 0px 3px 0px;
+	}
+	.dark-green .link{
+		color: #31AC70;
+	}
+
 .light-blue {}
 	.nav .nav-work-list a.light-blue:hover, .nav .nav-work-list a.light-blue.active {
 		color: #2C97D4;
