@@ -8,7 +8,10 @@
 
 		var $pageWrap = $( ".page-wrap" ),
 			$pageRightColumn = $pageWrap.find( ".page-right-column" ),
-			$navOpenBtn = $pageWrap.find( "#nav-open-btn" );
+			$navOpenBtn = $pageWrap.find( "#nav-open-btn" ),
+			$nav = $pageWrap.find( ".nav" ),
+			$lisAs = $nav.find( "li a" ),
+			linkId = 0;
 
 		var togglePageWrapOpenClass = function( evt ) {
 
@@ -27,20 +30,6 @@
 		};
 
 		$navOpenBtn.on( "click", togglePageWrapOpenClass );
-
-		//homepage
-		/*var $a = $( ".homepage-content-wrap" ).find( "a" ),
-			$loaderCover = $( ".loader-cover" );
-		$a.on( "click", function( evt ) {
-
-			evt.preventDefault();
-			$loaderCover.show();
-			setTimeout( function() {
-				$loaderCover.addClass( "active" );
-			}, 25);
-			
-
-		} );*/	
 
 		//about page greetings
 		var checkAboutGreeting = function() {
@@ -68,26 +57,51 @@
 
 		//loader class
 		var ajaxifyLinks = function() {
-			$( "a" ).off( "click", loadLink );
-			$( "a" ).on( "click", loadLink );
+			$( "a" ).off( "click", onLinkClick );
+			$( "a" ).on( "click", onLinkClick );
 		};
-		var loadLink = function( evt ) {
+		var onLinkClick = function( evt ) {
 			
 			evt.preventDefault();
-			
-			var $a = $( this ),
-				transitionClass = $a.attr( "data-transition-class" );
 
+			var $a = $( this );
+			loadLink( $a.attr( "href" ), $a.attr( "data-transition-class" ), $a.attr( "data-transition-direction" ) );
+
+			//update history
+			if( window.history ) {
+				history.pushState( { "href": $a.attr( "href" ), "transitionClass": $a.attr( "data-transition-class" ), "transitionDirection": $a.attr( "data-transition-direction" ) }, $a.attr( "title" ), $a.attr( "href" ) );
+			}		
+
+		};
+
+		var loadLink = function( href, transitionClass, transitionDirectionClass ) {
+
+			$lisAs.removeClass( "active" );
+			
+			var $a = $nav.find( "[href='" + href + "']" );
+			$a.addClass( "active" );
+
+			//remove any previous transition classes
+			$pageRightColumn.get(0).className = $pageRightColumn.get(0).className.replace(/\btransition-\S+/g, '');
+			if( transitionDirectionClass ) {
+				$pageRightColumn.addClass(transitionDirectionClass);
+			}
+			
 			$loaderCover.show();
 			
 			setTimeout( function() {
 				$loaderCover.addClass( "active" );
 				$loaderCover.addClass( transitionClass );
 			}, 25);
+
+			//appear graphic preloader if loading takes long
+			var loaderGraphicTimeout = setTimeout( function() {
+				$loaderCoverGraphic.fadeIn();
+			}, 600 );
 			
 			setTimeout( function() {
 				$.ajax( {
-				url: $a.attr( "href" ),
+				url: href,
 					success: function( data ) {
 						
 						//append new page
@@ -95,8 +109,14 @@
 						//prepare new page
 						ajaxifyLinks();
 						checkAboutGreeting();
+						return;
 
 						$loaderCover.addClass( "active-down" );
+						
+						//get rid of preloader
+						clearTimeout( loaderGraphicTimeout );
+						$loaderCoverGraphic.hide();
+
 						setTimeout( function() {
 							$loaderCover.hide();
 							//reset
@@ -108,11 +128,22 @@
 			}, 375);
 
 		};
+
+		window.addEventListener( "popstate", function( event ) {
+			if( event.state ) {
+				loadLink( event.state.href, event.state.transitionClass, event.state.transitionDirection );
+			}
+		} );
+
 		var $pageRightColumn = $( ".page-right-column" ),
 			$contentWrap = $( ".content-wrap" ),
-			$loaderCover = $( ".loader-cover" );
+			$loaderCover = $( ".loader-cover" ),
+			$loaderCoverGraphic = $( ".loader-cover-graphic" );
 
-		if( window.location.search.indexOf( "transition" ) > -1 ) {
+		if( isMobile && !isMobile.any ) {
+			ajaxifyLinks();
+		}
+		/*if( window.location.search.indexOf( "transition" ) > -1 ) {
 			ajaxifyLinks();
 		
 			if( window.location.search.indexOf( "left-right" ) > -1 ) {
@@ -122,7 +153,7 @@
 			} else if( window.location.search.indexOf( "top-top" ) > -1 ) {
 				$pageRightColumn.addClass( "top-top" );
 			}
-		}
+		}*/
 		
 	} ); 
 

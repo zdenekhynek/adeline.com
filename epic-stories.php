@@ -8,13 +8,13 @@
 		<h1>Epic stories
 			<ul class="project-controls no-bullets clearfix">
 				<li>
-					<a href="global-happy-party" class="project-prev-arrow" title="Global happy party"><i class="io io-left-arrow"></i><span class="visually-hidden">Previous</span></a>
+					<a href="global-happy-party" data-transition-direction="transition-right-left" class="project-prev-arrow" title="Global happy party"><i class="io io-left-arrow"></i><span class="visually-hidden">Previous</span></a>
 				</li>
 				<li>
 					<a href="index.php" class="homepage-btn desk-only" title="Homepage"><i class="io io-homepage"></i><span class="visually-hidden io-homepage">Home</span></a>
 				</li>
 				<li>
-					<a href="behind-brutes" class="project-next-arrow" title="Behind brutes"><i class="io io-right-arrow"></i><span class="visually-hidden">Next</span></a>
+					<a href="behind-brutes" data-transition-direction="transition-left-right" class="project-next-arrow" title="Behind brutes"><i class="io io-right-arrow"></i><span class="visually-hidden">Next</span></a>
 				</li>
 			</ul>
 		</h1>

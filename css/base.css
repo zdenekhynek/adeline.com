@@ -268,11 +268,11 @@ header {
 	z-index: 1;
 }
 	.loader-cover-inner {
+		position: relative;
 		width: 100%;
 		height: 100%;
 		background-color: orange;
 		transform-origin: top;
-		/*transform-origin: left;*/
 		transform: scaleY(0);
 		transition: transform .4s ease-in-out;
 	}
@@ -286,32 +286,101 @@ header {
 		}
 
 	/* left-right */
-	.left-right .loader-cover-inner {
+	.transition-left-right .loader-cover-inner {
 		transform: scaleX(0) scaleY(1);
 		transform-origin: left;
 	}
-		.left-right .loader-cover.active .loader-cover-inner {
+		.transition-left-right .loader-cover.active .loader-cover-inner {
 			transform: scaleX(1) scaleY(1);
 		}
-		.left-right .loader-cover.active-down .loader-cover-inner {
+		.transition-left-right .loader-cover.active-down .loader-cover-inner {
 			transform: scaleX(0) scaleY(1);
 			transform-origin: right;
 		}
-	.left-left .loader-cover-inner {
+	.transition-left-left .loader-cover-inner {
 		transform: scaleX(0) scaleY(1);
 		transform-origin: left;
 	}
-		.left-left .loader-cover.active .loader-cover-inner {
+		.transition-left-left .loader-cover.active .loader-cover-inner {
 			transform: scaleX(1) scaleY(1);
 		}
-		.left-left .loader-cover.active-down .loader-cover-inner {
+		.transition-left-left .loader-cover.active-down .loader-cover-inner {
 			transform: scaleX(0) scaleY(1);
 			transform-origin: left;
 		}
-		
-		.top-top .loader-cover.active-down .loader-cover-inner {
+		.transition-top-top .loader-cover.active-down .loader-cover-inner {
 			transform-origin: top;
 		}
+	/* right-left */
+	.transition-right-left .loader-cover-inner {
+		transform: scaleX(0) scaleY(1);
+		transform-origin: right;
+	}
+		.transition-right-left .loader-cover.active .loader-cover-inner {
+			transform: scaleX(1) scaleY(1);
+		}
+		.transition-right-left .loader-cover.active-down .loader-cover-inner {
+			transform: scaleX(0) scaleY(1);
+			transform-origin: left;
+		}
 
+	.loader-cover-graphic {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate( -50%, -50% );
+		width: 15px;
+		height: 30px;
+		/* hidden by default */
+		display: none;
+	}
+		.loader-cover-graphic:before, .loader-cover-graphic:after {
+			position:absolute;
+			width: 15px;
+			height: 15px;
+			content:'';
+			background-color: #ffffff;
+			border-radius: 50%;
+		}
+		.loader-cover-graphic:before{
+			animation: preloader_3_before 1.25s infinite linear;
+		}
+ 
+		.loader-cover-graphic:after{
+			animation: preloader_3_after 1.25s infinite linear;
+		}
+		/*@keyframes preloader_3_before {
+			0% {transform: translateX(0px) scale(1.4); animation-timing-function: cubic-bezier(.34,.67,.63,.36);}
+			25% {transform: translateX(20px) scale(1); opacity: 1;}
+			50% {transform: translateX(0px) scale(.6); opacity:.5; animation-timing-function: cubic-bezier(.34,.67,.63,.36);}
+			75% {transform: translateX(-20px) scale(1); opacity: 1;}
+			100% {transform: translateX(0px) scale(1.4);}
+		}
+		@keyframes preloader_3_after {
+			0% {transform: translateX(0px) scale(.6); opacity:.5; animation-timing-function: cubic-bezier(.34,.67,.63,.36);}
+			25% {transform: translateX(-20px) scale(1); opacity: 1;}
+			50% {transform: translateX(0px) scale(1.4); animation-timing-function: cubic-bezier(.34,.67,.63,.36);}
+			75% {transform: translateX(20px) scale(1); opacity: 1;}
+			100% {transform: translateX(0px) scale(.6); opacity:.5;}
+		}*/
 
+		/*
+			http://cubic-bezier.com/#.11,.21,.9,1
+			http://cubic-bezier.com/#.6,0,.89,.79
+		*/
+ 		@keyframes preloader_3_before {
+			0% {transform: translateX(0px) scale(1.5); opacity: 1; animation-timing-function: cubic-bezier(.11,.21,.8,1)}
+			25% {transform: translateX(15px) scale(1); opacity: .9; animation-timing-function: cubic-bezier(0,0,.89,.79)}
+			50% {transform: translateX(0px) scale(.5); opacity: .1; animation-timing-function: cubic-bezier(.11,.21,.8,1)}
+			75% {transform: translateX(-15px) scale(1); opacity: .9; animation-timing-function: cubic-bezier(0,0,.89,.79)}
+			100% {transform: translateX(0px) scale(1.5); opacity: 1; }
+		}
+		@keyframes preloader_3_after {
+			0% {transform: translateX(0px) scale(.5); opacity: .1; animation-timing-function: cubic-bezier(.11,.21,.8,1)}
+			25% {transform: translateX(-15px) scale(1); opacity: .9; animation-timing-function: cubic-bezier(0,0,.89,.79)}
+			50% {transform: translateX(0px) scale(1.5); opacity: 1; animation-timing-function: cubic-bezier(.11,.21,.8,1)}
+			75% {transform: translateX(15px) scale(1); opacity: .9; animation-timing-function: cubic-bezier(0,0,.89,.79)}
+			100% {transform: translateX(0px) scale(.5); opacity: .1;}
+		}
+	
 		
