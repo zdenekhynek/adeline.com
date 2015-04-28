@@ -62,15 +62,20 @@
 		};
 		var onLinkClick = function( evt ) {
 			
-			evt.preventDefault();
-
 			var $a = $( this );
-			loadLink( $a.attr( "href" ), $a.attr( "data-transition-class" ), $a.attr( "data-transition-direction" ) );
+			if( $a.attr( "target" ) !== "_blank" ) {
 
-			//update history
-			if( window.history ) {
-				history.pushState( { "href": $a.attr( "href" ), "transitionClass": $a.attr( "data-transition-class" ), "transitionDirection": $a.attr( "data-transition-direction" ) }, $a.attr( "title" ), $a.attr( "href" ) );
-			}		
+				evt.preventDefault();
+
+				loadLink( $a.attr( "href" ), $a.attr( "data-transition-class" ), $a.attr( "data-transition-direction" ) );
+
+				//update history
+				if( window.history ) {
+					history.pushState( { "href": $a.attr( "href" ), "transitionClass": $a.attr( "data-transition-class" ), "transitionDirection": $a.attr( "data-transition-direction" ) }, $a.attr( "title" ), $a.attr( "href" ) );
+				}	
+
+			}
+				
 
 		};
 
