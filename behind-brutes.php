@@ -35,7 +35,7 @@
 		<p>
 		Behind the Brutes was best experienced on iPad, but worked very nicely on desktop. We also sent real physical little x-rays to Epic's clients. Others could still the fully digital version.
 		</p>
-		<p>Agency: <a href="http://epic.net">Epic Web Agency</a> - 2013<br/>
+		<p>Agency: <a href="http://epic.net" target="_blank">Epic Web Agency</a> - 2013<br/>
 		Art direction: Karim Maaloul<br />
 		Design: Adeline O’Moreau<p>
 		<p>
