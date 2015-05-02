@@ -83,7 +83,7 @@ Thousands of happy people from all over the world joined in, creating their very
 		<p>Agency: Google Creative Lab - 2015<br/>
 			Creative: Xavier Barrade + Joao Wilbert<br/>
 Design: Hana Tanimura + Adeline O’Moreau<br/>
-Developement: The Rumpus Room<p>
+Development: The Rumpus Room<p>
 
 	</section>
 	<!-- end ebola -->
