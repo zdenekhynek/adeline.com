@@ -10,7 +10,7 @@
 				<h1>Good<br />Morning</h1>
 				<p>Nice to meet you.<br />I’m Adeline, a creative + designer + illustrator made in Belgium and raised in Europe. Currently, I live, work and ride bikes in London, United-Kingdom.</p>
 				<p>I care about connected things that work nicely and matter to other humans. More simply, I draw things for the Internet.<p>
-				<p>There is but one rule in my life : make the 7-years-old-me proud. Back then, I had a pet slug called Edwige, made a complete set of rip-off Pokemon cards branded Mochéconne* and every signle pockets of my dugareers were full of interesting stuff I found in the garden. So there is quite a bit of work.<p>
+				<p>There is but one rule in my life : make the 7-years-old-me proud. Back then, I had a pet slug called Edwige, made a complete set of rip-off Pokemon cards branded Mochéconne* and every single pockets of my dugareers were full of interesting stuff I found in the garden. So there is quite a bit of work.<p>
 			</div>
 			<div class="right-about-column sm-100 lg-30">
 				<div class="right-about-section">
