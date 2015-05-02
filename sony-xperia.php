@@ -25,11 +25,27 @@ Torrent - rub an image to make to colour drip<br/>
 Atomise - Disintegrating the movements<br/>
 Flux - using the moving lights in the scene to create light trails.<br/>
 		</p>
-		<div class="image-gallery clearfix">
-			<img src="img/ebola-img-1.png" alt="Ebola" />
-			<img src="img/ebola-img-2.png" alt="Ebola" />
+		<div class="image clearfix">
+			<img src="img/sony-colourburst/overview.png" alt="Ebola" style="display:block; margin:0 auto"/>
 		</div>
-		<p>Art direction: Steve Vranakis<br />Design: Hana Tanimura + Adeline O’Moreau<p>
+
+
+	<p>
+	Colour Burst buffers the last 5 seconds of your camera in order to create breath-taking and surpising effects.
+	For example, using the last 10 frames to create a deconstructed effect on your friend running accross the screen, or usuing the sound of hands clapping to trigger the shutter.<br/>
+	This was showcasing the power of the Sony Xperia and bring Sony's brand values to life
+	</p>
+		<div class="image clearfix">
+			<img src="img/sony-colourburst/overview02.png" alt="Ebola" style="display:block; margin:0 auto; max-height:400px"/>
+		</div>
+
+		<div class="image clearfix">
+			<img src="img/sony-colourburst/icons-01.png" alt="Ebola" style="max-height:120px; margin: 0 auto; display:block" />
+			<img src="img/sony-colourburst/icons-02.png" alt="Ebola" style="max-height:60px; margin: 0 auto; display:block" />
+		</div>
+
+
+		<p>Agency: Less Rain - 2013<br />Design: Adeline O’Moreau<br/>Developpement: Joshua Newnham<p>
 	</section>
 	<!-- end ebola -->
 <?php

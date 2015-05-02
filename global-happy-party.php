@@ -21,14 +21,65 @@
 			</ul>
 		</h1>
 		<p>For the International Day of Happiness 2015, Pharrell Williams and the United Nations Foundation invited everyone to join a global HAPPY PARTY, spread happiness, and demand climate action.</p>
-		
-		<div class="image clearfix">
-			<img src="img/portfolio-browser.png" alt="Ebola" />
+		<a href="http://globalhappyparty.com" class=" link" target="_blank">+ http://globalhappyparty.com</a> <br/><br/>
+		<div class="image-gallery happy-party clearfix">
+			<img src="img/happy-party/gifs/02.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/26.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/22.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/23.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/24.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/25.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/27.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/05.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/06.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/07.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/08.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/09.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/10.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/11.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/12.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/13.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/14.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/15.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/16.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/17.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/18.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/19.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/20.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/21.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/28.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/pharrell.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/30.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/31.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/32.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/33.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/34.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/35.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/36.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/37.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/38.gif" alt="Ebola" />
+			<img src="img/happy-party/gifs/39.gif" alt="Ebola" />
+
 		</div>
+
 		<p>
 Thousands of happy people from all over the world joined in, creating their very own shareable GIFs and dancing along to "Happy" by Pharrell. Not only that - they invited their friends, signed the Live Earth petition for climate action, and helped spread the word even further about the importance of taking action for a #HAPPYPLANET.
 		</p>
-		<a href="#" class=" link">+ http://globalhappyparty.com</a>
+		<div class="image-gallery clearfix">
+			<img src="img/happy-party/MOBILE_NEXUS2.png" alt="Ebola" />
+			<img src="img/happy-party/MOBILE_NEXUS3.png" alt="Ebola" />
+			<img src="img/happy-party/MOBILE_NEXUS4.png" alt="Ebola" />
+		</div>
+		<p>
+		Between the 17th and 22nd of March 2015, 810,000 people visited the website and 48,000 gifs were created.
+		</p>
+		<p>
+		The International Day of Happiness was also celebrated with a Pegman dressed as Pharrell and a Google Hangout Easter Egg
+		</p>
+		<div class="image clearfix">
+			<img src="img/happy-party/desktop-01.png" alt="Ebola" />
+		</div>
+
 		<p>Agency: Google Creative Lab - 2015<br/>
 			Creative: Xavier Barrade + Joao Wilbert<br/>
 Design: Hana Tanimura + Adeline O’Moreau<br/>

@@ -18,8 +18,15 @@
 				</li>
 			</ul>
 		</h1>
-		<p>For the International Day of Happiness 2015, Pharrell Williams and the United Nations Foundation invited everyone to join a global HAPPY PARTY, spread happiness, and demand climate action.</p>
-		<div class="image-gallery clearfix">
+		<p>A series of two educational posters to help prevent the spreading of ebola.</p>
+		<p>We found out that posters being used where very much text based and quite scary. So we came up with stripped down posters to inform, educate and engage individuals, families and communities, in clear practical terms on ways they can minimise risk of catching Ebola. <br/>They needed to be:</p>
+		<p>Easy to replicate<br/>
+Quick to produce<br/>
+Legible in black and white<br/>
+Friendly, warm<br/>
+As universal as possible<br/>
+</p>
+		<div class="clearfix">
 			<img src="img/ebola-img-1.png" alt="Ebola" />
 			<img src="img/ebola-img-2.png" alt="Ebola" />
 		</div>

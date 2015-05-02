@@ -7,7 +7,6 @@
 	<section class="project-content-wrap content-wrap dark-yellow clearfix">
 		<h1>Epic stories
 		</h1>
-			<a href="#" class="project-link" title="Preventing ebola"><span class="visually-hidden">Global Happy Party</span></a>
 			<ul class="project-controls no-bullets clearfix">
 				<li>
 					<a href="global-happy-party" data-transition-direction="transition-right-left" class="project-prev-arrow" title="Global happy party"><i class="io io-left-arrow"></i><span class="visually-hidden">Previous</span></a>

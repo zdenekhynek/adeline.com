@@ -22,10 +22,7 @@
 			How many more sleeps before Tom’s birthday party ? Before a weekend in Belgium ? Before you finally see each other again ?
 Encore combien de dodos is a very simple web app which allows you to count down in the one and only unit that matters: nights of sleep.
 		</p>
-		<div class="image-gallery clearfix">
-			<img src="img/ebola-img-1.png" alt="Ebola" />
-			<img src="img/ebola-img-2.png" alt="Ebola" />
-		</div>
+		<a href="http://combien-de-dodos.ecunard.be/" class=" link">+ http://combien-de-dodos.ecunard.be/</a>
 		<p>
 			Encore combien de dodos allows users to very quickly count down to D-Day, and save their counter if they wish. They do so by signing in with either Facebook or Twitter. That way, when the so awaited event finally arrives, the impatient user gets a direct message saying something like “FINALLY, no more sleeps, Tom’s birthday party is happening at last !”.
 		</p>

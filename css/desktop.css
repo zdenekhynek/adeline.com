@@ -26,6 +26,7 @@
 	.homepage-tile {
 		height: 400px;
 	}
+	.homepage-tile .landscape { position: absolute;}
 
 	/**
 	*	PROJECTS
@@ -41,11 +42,20 @@
 		.project-content-wrap p {
 			width: 70%;
 		}
+
 		.project-content-wrap .image-gallery {}
 			.project-content-wrap .image-gallery img {
 				float: left;
 				max-width: 300px;
 				height: auto;
+			}
+			.project-content-wrap .happy-party {
+
+			}
+			.project-content-wrap .happy-party img{
+								max-width: 11.111%;
+
+
 			}
 
 		/* project controlles */

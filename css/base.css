@@ -1,4 +1,18 @@
 /**
+*	SOON
+**/
+
+.soon {
+  vertical-align: middle;
+
+font-size: 20px;
+text-transform: uppercase;
+text-decoration: none !important; 
+color: rgba(255,255,255,0.2);
+font-family: 'Montserrat', sans-serif;
+}
+
+/**
 *	LAYOUT
 **/
 .page-wrap, .page-inner-wrap {
@@ -184,9 +198,17 @@ header {
 	}
 		.homepage-tile img {
 			max-width: 100%;
+			max-height: 100%;
 			height: auto;
 			margin: 0 auto;
 		}
+
+	.homepage-tile .landscape{
+		right:0px;
+		min-width: 100%;
+		bottom: 0px;
+		position: absolute;
+	}
 
 /**
 *	PROJECT
@@ -210,6 +232,7 @@ header {
     .project-content-wrap .video{
     			max-width:100%; !important
     			max-height: 56.25%; !important}
+    			
 
 	/* project controls */
 	.project-controls {}
@@ -224,6 +247,9 @@ header {
 /**
 * ABOUT
 **/
+.content-wrap {min-height: 100%;
+	display: block;
+}
 .about-content-wrap {
 	position: relative;
 }

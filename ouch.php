@@ -5,7 +5,7 @@
 ?>
 	<!-- ebola -->
 	<section class="project-content-wrap content-wrap dark-blue clearfix">
-		<h1>ouch</h1>
+		<h1>Anatomy</h1>
 			<ul class="project-controls no-bullets clearfix">
 				<li>
 					<a href="preventing-ebola" data-transition-direction="transition-right-left" class="project-prev-arrow" title="Preventing ebola"><i class="io io-left-arrow"></i><span class="visually-hidden">Previous</span></a>
@@ -18,12 +18,21 @@
 				</li>
 			</ul>
 		</h1>
-		<p>For the International Day of Happiness 2015, Pharrell Williams and the United Nations Foundation invited everyone to join a global HAPPY PARTY, spread happiness, and demand climate action.</p>
-		<div class="image-gallery clearfix">
-			<img src="img/ebola-img-1.png" alt="Ebola" />
-			<img src="img/ebola-img-2.png" alt="Ebola" />
+		<p>
+			This ongoing cabinet of curiosities contains radiographic lights, felt organs and hand-carved prints.
+			Observed and softly reinterpreted.
+		</p>
+
+		<div class="clearfix">
+			<img src="img/anatomy/anatomy-01.png" alt="Ebola" />
+			<img src="img/anatomy/anatomy-02.png" alt="Ebola" />
 		</div>
-		<p>Art direction: Steve Vranakis<br />Design: Hana Tanimura + Adeline O’Moreau<p>
+		<p>
+			Our inside is a very complicated and fascinating machine. Yet, many people feel uncomfortable or disgusted when seeing it.
+With these soft and sweet organs, I wanted to people to accept and love what they are made of.</p>	<p>
+First exhibited in the art library "La Curieuse" in 2012. <a href="https://vimeo.com/38158720" target="_blank">Interview (fr)</a></p>
+			
+		<p>Art direction, Design, craft: Adeline O'Moreau<p>
 	</section>
 	<!-- end ebola -->
 <?php
