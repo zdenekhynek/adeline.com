@@ -5,7 +5,7 @@
 ?>
 	<!-- ebola -->
 	<section class="project-content-wrap content-wrap dark-purple clearfix">
-		<h1>One Thousand Kilometers214312</h1>
+		<h1>One Thousand Kilometers!!!!</h1>
 			<ul class="project-controls no-bullets clearfix">
 				<li>
 					<a href="preventing-ebola" class="project-prev-arrow" title="Preventing ebola"><i class="io io-left-arrow"></i><span class="visually-hidden">Previous</span></a>
