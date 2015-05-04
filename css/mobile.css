@@ -34,19 +34,20 @@
 		position: absolute;
 	}
 		.project-controls li:first-child, .project-controls li:last-child {
-			top: 8px;
+			top: 90px;
 		}
 		.project-controls li:first-child {
-			left: -40px;
+			left: 20px;
 		}
 		.project-controls li:last-child {
-			right: -40px;
+			right: 20px;
 		}
 
 	.project-content-wrap h1 {
+		max-width: 100%;
+		margin: 0 20px;
 		position: relative;
 		text-align: center;
-		margin: 0 40px;
 	}
 
 	/**

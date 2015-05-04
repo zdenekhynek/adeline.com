@@ -214,6 +214,7 @@ header {
 *	PROJECT
 **/
 .project-content-wrap, .about-content-wrap {
+	position: relative;
 	overflow: auto;
 	padding: 20px;
 	background-color: #F7F8F8;	
