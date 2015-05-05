@@ -19,7 +19,11 @@
 				</li>
 			</ul>
 		</h1>
-		<p>For the International Day of Happiness 2015, Pharrell Williams and the United Nations Foundation invited everyone to join a global HAPPY PARTY, spread happiness, and demand climate action.</p>
+		<P style="font-style:italic">
+		"Sometimes, bedtime stories can take you in a suprising journey. Castles can be built from nothing, pricesses are not always in love with knights and dragons can be brave companions.<br/>
+		Because your child also has stories to tell"
+		Fabricate fantastic fiction
+		</p>
 		<div class="image-gallery clearfix">
 		</div>
 		<iframe src="https://player.vimeo.com/video/76039344" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/76039344">Creative Business Cup - Belgium, EPIC</a> from <a href="https://vimeo.com/creativebusinesscup">creativebusinesscup</a> on <a href="https://vimeo.com">Vimeo</a>.</p>	

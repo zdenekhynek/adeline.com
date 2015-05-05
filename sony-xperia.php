@@ -5,7 +5,7 @@
 ?>
 	<!-- ebola -->
 	<section class="project-content-wrap content-wrap light-blue clearfix">
-		<h1>sony xperia </h1>
+		<h1>sony xperia Colour burst</h1>
 			<ul class="project-controls no-bullets clearfix">
 				<li>
 					<a href="preventing-ebola" data-transition-direction="transition-right-left" class="project-prev-arrow" title="Preventing ebola"><i class="io io-left-arrow"></i><span class="visually-hidden">Previous</span></a>
