@@ -19,15 +19,31 @@
 				</li>
 			</ul>
 		</h1>
-		<P style="font-style:italic">
-		"Sometimes, bedtime stories can take you in a suprising journey. Castles can be built from nothing, pricesses are not always in love with knights and dragons can be brave companions.<br/>
-		Because your child also has stories to tell"
-		Fabricate fantastic fiction
-		</p>
+		<P>
+		The app that helps you create fantastic fiction.</p>
+		<p><em>
+		"Sometimes, bedtime stories can take you in a suprising journey. Castles can be built from nothing, pricesses are not always in love with knights and dragons can be brave companions.
+		Because your child also has stories to tell; and we wanted you to discover a whole new world every night, we developped Epic Stories.<br/>Create your tall tale, tweak it to perfection and even share it with other parents."
+		</em></p>
+
 		<div class="image-gallery clearfix">
+		<div class="responsive-container" style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+		<iframe src="https://player.vimeo.com/video/76039344" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:none"></iframe>	
 		</div>
-		<iframe src="https://player.vimeo.com/video/76039344" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/76039344">Creative Business Cup - Belgium, EPIC</a> from <a href="https://vimeo.com/creativebusinesscup">creativebusinesscup</a> on <a href="https://vimeo.com">Vimeo</a>.</p>	
-		<p>Art direction: Steve Vranakis<br />Design: Hana Tanimura + Adeline O’Moreau<p>
+		</div>
+
+		<p>
+The app is delivered with a few different ready-made stories that can be used as a starting point.
+They can be modified by adding or removing elements, swapping characters between each other or giving the story a completely different ending.<br/>
+And why not, create your own story from scratch, by using all of the crazy elements and behaviours available in the ever growing library.		</p>
+
+		<div class=" clearfix">
+			<img src="img/epic-stories/chaperon-rouge-charact-set.png">
+		</div>
+
+		<p>Agency: Epic Creative Agency - Ongoing<br />
+		Design, illustration and animation: Karim Maaloul + Adeline O'Moreau<p>
+		<p>Epic Stories won the <a href="http://cbccom.server003.b14cms.dk/winningideas2013" target="_blank">Creative Business Cup price for Best proof of concept</a></p>
 	</section>
 	<!-- end epic stories -->
 <?php

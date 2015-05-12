@@ -1,6 +1,6 @@
 <?php
 	require_once( "scripts.php" );
-	$active_page = "global-happy-party";
+	$active_page = "ouch";
 	get_header();
 ?>
 	<!-- ebola -->
@@ -8,13 +8,13 @@
 		<h1>Anatomy</h1>
 			<ul class="project-controls no-bullets clearfix">
 				<li>
-					<a href="preventing-ebola" data-transition-direction="transition-right-left" class="project-prev-arrow" title="Preventing ebola"><i class="io io-left-arrow"></i><span class="visually-hidden">Previous</span></a>
+					<a href="sony-xperia" data-transition-direction="transition-right-left" class="project-prev-arrow" title="sony-xperia"><i class="io io-left-arrow"></i><span class="visually-hidden">Previous</span></a>
 				</li>
 				<li>
 					<a href="index.php" class="homepage-btn desk-only" title="Homepage"><i class="io io-homepage"></i><span class="visually-hidden io-homepage">Home</span></a>
 				</li>
 				<li>
-					<a href="epic-stories" data-transition-direction="transition-left-right" class="project-next-arrow" title="Epic stories"><i class="io io-right-arrow"></i><span class="visually-hidden">Next</span></a>
+					<a href="combien-de-dodos" data-transition-direction="transition-left-right" class="project-next-arrow" title="combien-de-dodos"><i class="io io-right-arrow"></i><span class="visually-hidden">Next</span></a>
 				</li>
 			</ul>
 		</h1>
@@ -24,8 +24,8 @@
 		</p>
 
 		<div class="clearfix">
-			<img src="img/anatomy/anatomy-01.png" alt="Ebola" />
-			<img src="img/anatomy/anatomy-02.png" alt="Ebola" />
+			<img src="img/anatomy/anatomy-01.png" alt="anatomy" />
+			<img src="img/anatomy/anatomy-02.png" alt="anatomy" />
 		</div>
 		<p>
 			Our inside is a very complicated and fascinating machine. Yet, many people feel uncomfortable or disgusted when seeing it.

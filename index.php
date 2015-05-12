@@ -20,7 +20,7 @@
 			<img src="img/sony-colourburst/homepage-colour-burst.png" alt="Happy party" />
 		</a>
 		<a data-transition-class="dark-blue" href="ouch" class="homepage-tile sm-100 md-50 dark-blue">
-			<img src="img/anatomy/homepage-anatomy.png" alt="Happy party" />
+			<img src="img/anatomy/homepage-anatomy02.png" alt="Happy party" />
 		</a>
 		<a data-transition-class="light-purple" href="combien-de-dodos" class="homepage-tile sm-100 md-50 light-purple">
 			<img class="landscape" src="img/combien-dodos/homepage-combien-dodos.png" alt="Happy party" />

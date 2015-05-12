@@ -105,7 +105,9 @@ display: block;}
 		background-color: #FCB215;
 	}
 
-
+	.light-yellow .link{
+		color: #FCB215;
+	}
 	
 
 
@@ -129,7 +131,9 @@ display: block;}
 		background-color: #F9BF2B;
 		box-shadow: #CF9E23 0px 3px 0px;
 	}
-
+	.dark-yellow .link{
+		color: #F9BF2B;
+	}
 
 .light-green {}
 	.nav .nav-work-list a.light-green:hover, .nav .nav-work-list a.light-green.active {
@@ -152,7 +156,9 @@ display: block;}
 		background-color: #66BB6A;
 		box-shadow: #29905E 0px 3px 0px;
 	}
-
+	.light-green .link{
+		color: #66BB6A;
+	}
 .dark-green {} 
 	.nav .nav-work-list a.dark-green:hover, .nav .nav-work-list a.dark-green.active {
 		color: #31AC70;
@@ -194,7 +200,12 @@ display: block;}
 	.light-blue .loader-cover-inner {
 		background-color: #2C97D4;
 	}
-.dark-blue {} 
+
+	.light-blue .link{
+		color: #2C97D4;
+	}
+
+	.dark-blue {} 
 	.nav .nav-work-list a.dark-blue:hover, .nav .nav-work-list a.dark-blue.active {
 		color: #1A87C8;
 	}
@@ -210,7 +221,13 @@ display: block;}
 	.dark-blue .loader-cover-inner {
 		background-color: #1A87C8;
 	}	
-.light-purple {} 
+
+
+	.dark-blue .link{
+		color: #1A87C8;
+	}
+
+	.light-purple {} 
 	.nav .nav-work-list a.light-purple:hover, .nav .nav-work-list a.light-purple.active {
 		color: #9175B4;
 	}
@@ -226,6 +243,11 @@ display: block;}
 	.light-purple .loader-cover-inner {
 		background-color: #9175B4;
 	}	
+
+	.light-purple .link{
+		color: #9175B4;
+	}
+
 .dark-purple {} 
 	.nav .nav-work-list a.dark-purple:hover, .nav .nav-work-list a.dark-purple.active {
 		color: #775BA6;
@@ -242,6 +264,11 @@ display: block;}
 	.dark-purple .loader-cover-inner {
 		background-color: #775BA6;
 	}
+	.dark-purple .link{
+		color: #775BA6;
+	}
+
+
 .light-red {} 
 	.nav .nav-work-list a.light-red:hover, .nav .nav-work-list a.light-red.active {
 		color: #F06291;
@@ -258,7 +285,12 @@ display: block;}
 	.light-red .loader-cover-inner {
 		background-color: #F06291;
 	}
-.dark-red {}
+
+	.light-red  .link{
+		color: #F06291;
+	}
+
+	.dark-red {}
 	.nav .nav-work-list a.dark-red:hover, .nav .nav-work-list a.dark-red.active {
 		color: #EC407A;
 	}
@@ -274,7 +306,11 @@ display: block;}
 	.dark-red .loader-cover-inner {
 		background-color: #EC407A;
 	}
+	.dark-red  .link{
+		color: #EC407A;
+	}
 
+	
 /**
 *	LAYOUT
 **/
